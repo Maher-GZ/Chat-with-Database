@@ -9,7 +9,7 @@ from Backend.app import app
 
 if __name__ == "__main__":
     # Define the port, defaulting to 4000 if no environment variable is set
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 445))
     
     # Run the Flask app
     app.run(host="0.0.0.0", port=port)
