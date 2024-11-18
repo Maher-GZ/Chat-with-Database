@@ -28,7 +28,7 @@ const ChatBubble = ({ message, dateSent, from }) => {
       height={"80%"}
     >
       <HStack spacing={4} alignItems="flex-end" alignSelf={alignment} ml={2} maxW={"70%"}>
-        {!isMe && <Avatar src={"img/download (9).jpg"} size="sm" />}{" "}
+        {!isMe && <Avatar src={"download.png"} size="sm" />}{" "}
         {/* Avatar for others */}
         <Box
           bg={
