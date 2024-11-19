@@ -62,7 +62,7 @@ LIMIT 1;`}
         user-friendly responses.
       </Text>
       <Image
-        src="Description1.png"
+        src="image-1.webp"
         alt="Description 1"
         boxSize="100%"
         objectFit="cover"
